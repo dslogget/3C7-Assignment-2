@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ClockTestBench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ClockTestBench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2022311460fs"></ZoomStartTime>
+      <ZoomEndTime time="2067211461fs"></ZoomEndTime>
+      <Cursor1Time time="2067000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="88"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/ClockTestBench/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ClockTestBench/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ClockTestBench/count" type="array">
+      <obj_property name="ElementShortName">count[13:0]</obj_property>
+      <obj_property name="ObjectShortName">count[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ClockTestBench/out" type="logic">
+      <obj_property name="ElementShortName">out</obj_property>
+      <obj_property name="ObjectShortName">out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ClockTestBench/LFSR_out" type="logic">
+      <obj_property name="ElementShortName">LFSR_out</obj_property>
+      <obj_property name="ObjectShortName">LFSR_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ClockTestBench/max_tick" type="logic">
+      <obj_property name="ElementShortName">max_tick</obj_property>
+      <obj_property name="ObjectShortName">max_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ClockTestBench/UUT/cd/state_reg" type="array">
+      <obj_property name="ElementShortName">state_reg[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state_reg[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ClockTestBench/UUT/LFSR_clk" type="logic">
+      <obj_property name="ElementShortName">LFSR_clk</obj_property>
+      <obj_property name="ObjectShortName">LFSR_clk</obj_property>
+   </wvobject>
+</wave_config>
